@@ -1,0 +1,168 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>CaddieGetter</title>
+
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style type="text/css">
+
+html, body {
+	background-color: #1B7A44;
+	color: #FBF6F6
+}
+.brandcolor{
+	color: #FBF6F6;
+	font-size: 50px;
+}
+
+/*.container {margin: 0 auto;
+width: 600px;
+}*/
+
+.color {
+	color:#1B7A44;
+	
+}
+
+.subsection {
+	position: relative;
+	float: right;
+}
+
+.floating-box {
+	display:inline-block;
+	margin-top: 30%;
+}
+
+.backg{
+	background: url("masters.jpg") no-repeat bottom center fixed;
+	background-size: cover;
+	min-height: 600px;
+	max-height: 100%;
+	min-width:100%;
+	position: static;
+}
+
+.button {
+    background-color: #FBF6F6; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #1B7A44; 
+    color: #FBF6F6 ; 
+    border: 2px solid #FBF6F6;
+}
+
+.button1:hover {
+    background-color: #FBF6F6;
+    color: #1B7A44;
+}
+
+.myvideo {
+	padding: 50px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <header class="row" style="padding-left: 15px">
+	        <img src="capture.jpg" width="100" class="img-responsive pull-left">
+	        <h1 class="brandcolor">Caddie Getter</h1>
+			<div>
+				<button class="subsection button button1">BOOK NOW</button> <a href=""></a>
+				<button class="subsection button button1">MEMBERS' AREA</a> </button>
+				<button class="subsection button button1">WHAT WE DO</button>
+				<button class="subsection button button1">HOME</button> 
+	    	</div> 
+    	</header>
+    
+  	<div class="row backg">
+  		<div class="col-md-4 floating-box">
+  			<h1>About</h1>
+  			<p><strong>Welcome to Caddie Getter. We provide trained caddies who.... <br><br>Read More</strong></p>
+  		</div>
+  		<div class="col-md-4 floating-box">
+  			<h1>Courses</h1>
+  			 <p><strong>We provide caddies for many different clubs around Ireland.... <br><br>Read More</strong></p>
+  		</div>
+  		<div class="col-md-4 floating-box">
+  			<h1>Posts</h1>
+  			 <p><strong>Tweets.... <br><br>Read More</strong></p>
+
+  		</div>
+	</div>
+	<div class="row">
+	  <div class="col-sm-4"></div>
+	  <div class="col-sm-4"></div>
+	  <div class="col-sm-4"></div>
+	</div>
+
+	Welcome to Caddie Getter! We provide trained caddies to you so you can book caddies using our reservation system. Caddies can be booked in advance or at short notice. Here at Caddie Getter, we thrive to provide our customers with a full, professional caddying service including organising, booking, clothing, equipment, training and insurance.
+
+<h2>BOOK NOW!</h2>
+ 
+<form> 
+  Name: <input type="text" class="color" name="name">
+  <br><br>
+  E-mail: <input type="text" class="color" name="email">
+  <br><br>
+  Comment: <textarea name="comment" class="color" rows="5" cols="40"></textarea>
+  <br><br>
+  <input type="submit" name="submit" class="color" value="Submit" onclick="sendEmail()">  
+</form>
+
+<iframe width="640" class="myvideo" height="360" src="https://www.youtube.com/embed/LtiTD45e0Zc" frameborder="0" allowfullscreen></iframe>
+	
+	<div>Book a caddy right now</div>
+	<footer>Leave a review</footer> <a href="#" class="fa fa-facebook"></a> <a href="#" class="fa fa-twitter"></a>
+
+
+	2017 &copy;  
+
+	<script type="text/javascript">
+		function sendEmail () {
+			document.write('<div></div>');
+		}
+	</script>
+	</body>
+</html>

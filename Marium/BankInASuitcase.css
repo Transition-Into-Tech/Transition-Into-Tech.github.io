@@ -1,0 +1,114 @@
+/*@import url('https://fonts.google.com/specimen/Gloria+Hallelujah');*/
+
+html,body {background-color: white }
+
+.menuBar {
+	color:#68cbd8;
+	font-size: 24px;
+	text-align: center;
+}	
+
+.headerphotos{
+	height:600 ;
+	width:400;
+
+}
+.menuButton{
+
+border:1px #a7d6da;
+margin: 0 auto;
+font-family: 'Gloria Hallelujah',cursive;
+color: #101010;
+font-size: 18px;
+background-color: #daecef;
+margin-bottom: 50px;
+font-size: 24	px;
+
+
+}
+
+.container {
+	background-color: white;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.p {
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Gloria Hallelujah',cursive;
+
+}
+
+.actionButton {
+	color: #101010;
+	background-color: #a7d6da;
+	margin-bottom: 10px;
+	font-family: 'Gloria Hallelujah' , cursive;
+	font-size: 18px;
+}
+
+.textWithBorder {
+	border:2px black solid;
+	text-align: center;
+}
+
+
+.copyright {
+	font-size: 10px;
+}
+
+
+.actionImage {
+	height: 100%;
+	width: 100%;
+}
+
+.socialMediaIcons {
+	height: 20%;
+	width: 20%;
+}
+
+.ftext{
+	padding-top: 30px;
+}
+
+.titles{
+	font-family:'Gloria Hallelujah',cursive;
+		text-align: center;
+	font-size: 24px;
+
+}
+
+.paragraphbody{
+	font-family:'Raleway', sans-serif;
+	text-align: center;
+	font-size: 20px;
+
+}
+
+.product .img-responsive {
+    margin: 0 auto;
+}
+
+.videocenter{
+	align-content: center;
+
+}
+
+.center{
+	text-align: center;
+}
+
+
+
+.team-container img{
+	width: 200px;
+	height:200px;
+	display: none;
+
+}
+
+.mymap{
+	padding-left: 300px;
+}

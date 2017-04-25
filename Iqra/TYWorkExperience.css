@@ -1,0 +1,155 @@
+
+	html, body {
+		background-color: white
+	}
+.brandcolor {
+	color:FF7A00;
+	font-size: 50px;
+	font-family: 'Sacramento', cursive;
+	padding-top: 5%;
+	padding-left: 90px;
+}
+.whatever {
+	font-size:20px;
+	color:23067D;
+	text-align: justify;
+}
+.title {
+	font-size:30px;
+	color:23067D;
+	text-align: center;
+}
+.beacon {
+	font-size: 20px;
+	color:2F80ED;
+	text-align: justify;
+}
+.mastercard1 {
+	height: 170px;
+width: 250px;
+display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.mastercard {
+	font-size:20px;
+	color:E00000;
+	text-align: justify;
+}
+.title7 {
+	font-size:30px;
+	color:E00000;
+	text-align: center;
+}
+.title1 { 
+	font-size:30px;
+	color:2F80ED;
+	text-align: center;
+
+}
+.beacon1 {
+height: 280px;
+width: 450px;
+display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.title3 {
+	font-size:30px;
+	color:675D9E;
+	text-align: center;
+}
+.hilton {
+	font-size: 20px;
+	color:675D9E;
+	text-align: justify;
+	
+}
+.hiltons1 {
+height: 220px;
+width: 380px;
+}
+.hiltons2 {
+height: 220px;
+width: 380px;
+}
+.hilton1 {
+	height: 250px;
+width: 250px;
+display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.NCI {
+height: 300px;
+width: 300px;
+display: block;
+    margin-left: 200;
+    margin-right: auto
+ }
+.container {
+	background-color : white;
+	margin: 0 auto;
+	width: 850px;
+    height: 1200px;
+}
+.about {
+	font-size:25px;
+	color: E00000;
+	
+}
+.logo {
+	width: 80px;
+	height: 90px;
+	margin-top: 30px;
+}
+.col-md-4 img{
+	width:300px;
+	height:220px;
+}
+.button-color1 {
+	color:navy;
+	font-size: 18px;
+
+}
+.button-color2 {
+	color:blue;
+	font-size: 18px;
+}
+.button-color3 {
+	color:red;
+	font-size: 18px;
+}
+.button-color4 {
+	color:black;
+	font-size: 18px;
+}
+
+.button4-container{
+	padding-top:10px;
+}
+
+.copyright {
+	font-size: 12px;
+	text-align: right;
+	margin-right: 10px;
+}
+.abouttext {
+	font-size: 22px; 
+	color:E00000;
+}
+
+.btn{
+	font-size: 14px;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+.carousel-container{
+	margin-top: 10px;
+}
