@@ -49,7 +49,7 @@ $(document).ready(function() {
 	    margin:30,
 	    items:3,
    		autoplay:true,
-    	autoplayTimeout:1000,
+    	autoplayTimeout:2500,
     	navigation:true,
 	    responsive:{
 	        0:{
