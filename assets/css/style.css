@@ -602,3 +602,31 @@ section{
 		margin-bottom: 60px;
 	}
 }
+
+.owl-prev {
+	background: none!IMPORTANT;
+    width: 75px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    margin-left: -100px!IMPORTANT;;
+    display: block!IMPORTANT;
+    border:0px solid black;
+}
+
+.owl-next {
+	background: none!IMPORTANT;
+    width: 75px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    right: -100px;
+    display: block!IMPORTANT;
+    border:0px solid black;
+}
+.owl-prev i, .owl-next i { color: #51c2b9;}
+
+.fa 
+{
+	font-size: 7em!IMPORTANT;
+}

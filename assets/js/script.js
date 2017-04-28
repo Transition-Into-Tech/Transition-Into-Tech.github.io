@@ -47,28 +47,23 @@ $(document).ready(function() {
  	$('#workstation-slider').owlCarousel({
 	    loop:true,
 	    margin:30,
-	    items:3,
-   		autoplay:true,
-    	autoplayTimeout:2500,
-    	navigation:true,
+	    nav:true,
+    	navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
 	    responsive:{
 	        0:{
 	            items:1,
-	            nav:true
+	            slideBy: 1
 	        },
 	        600:{
 	            items:2,
-	            nav:true
+	            slideBy: 2
 	        },
 	        1000:{
 	            items:3,
-	            nav:true
+	            slideBy: 3
 	        }
 	    }
 	})
-
-	$( ".owl-prev").html('<i class="fa fa-chevron-left"></i>');
-	$( ".owl-next").html('<i class="fa fa-chevron-right"></i>');
 	$('#expert-slider').owlCarousel({
 	    loop:true,
 	    items: 1
